@@ -2,7 +2,7 @@
  * @Author: zyj
  * @Date: 2020-12-17 13:24:27
  * @LastEditors: zyj
- * @LastEditTime: 2020-12-17 14:08:18
+ * @LastEditTime: 2020-12-17 16:26:27
  * @Description: file content
  * @FilePath: /markdown-doc/vite.config.js
  */
@@ -20,15 +20,4 @@ module.exports = {
     "/@/components": pathResolve("./src/components"),
     "/@/utils": pathResolve("./src/utils"),
   },
-//   rules: [
-//     {
-//       test: /\.sass$/,
-//       loaders: ["vue-style", "css", "sass"],
-//     },
-//   ],
-//   cssPreprocessOptions: {
-//     sass: {
-//       includePaths: ["path/to/sass/deps"],
-//     },
-//   },
 };
